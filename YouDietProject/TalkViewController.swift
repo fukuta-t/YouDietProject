@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TalkViewController.swift
 //  YouDietProject
 //
 //  Created by fukutappe on 2019/12/10.
@@ -8,11 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TalkViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        var money1=200
+        let money2=300
+        print("合計:\(money1+money2)")
     }
 
 

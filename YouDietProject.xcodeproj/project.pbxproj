@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		2B075B6B239FE2F50076EBF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075B6A239FE2F50076EBF8 /* AppDelegate.swift */; };
 		2B075B6D239FE2F50076EBF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075B6C239FE2F50076EBF8 /* SceneDelegate.swift */; };
-		2B075B6F239FE2F50076EBF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075B6E239FE2F50076EBF8 /* ViewController.swift */; };
+		2B075B6F239FE2F50076EBF8 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B075B6E239FE2F50076EBF8 /* TalkViewController.swift */; };
 		2B075B72239FE2F50076EBF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B075B70239FE2F50076EBF8 /* Main.storyboard */; };
 		2B075B75239FE2F50076EBF8 /* YouDietProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B075B73239FE2F50076EBF8 /* YouDietProject.xcdatamodeld */; };
 		2B075B77239FE3010076EBF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B075B76239FE3010076EBF8 /* Assets.xcassets */; };
 		2B075B7A239FE3010076EBF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B075B78239FE3010076EBF8 /* LaunchScreen.storyboard */; };
+		2B075B84239FEBF50076EBF8 /* TalkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B075B83239FEBF50076EBF8 /* TalkViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B075B67239FE2F40076EBF8 /* YouDietProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouDietProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B075B6A239FE2F50076EBF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B075B6C239FE2F50076EBF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B075B6E239FE2F50076EBF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B075B6E239FE2F50076EBF8 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
 		2B075B71239FE2F50076EBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B075B74239FE2F50076EBF8 /* YouDietProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YouDietProject.xcdatamodel; sourceTree = "<group>"; };
 		2B075B76239FE3010076EBF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B075B79239FE3010076EBF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B075B7B239FE3010076EBF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B075B83239FEBF50076EBF8 /* TalkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TalkViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				2B075B6A239FE2F50076EBF8 /* AppDelegate.swift */,
 				2B075B6C239FE2F50076EBF8 /* SceneDelegate.swift */,
-				2B075B6E239FE2F50076EBF8 /* ViewController.swift */,
+				2B075B6E239FE2F50076EBF8 /* TalkViewController.swift */,
+				2B075B83239FEBF50076EBF8 /* TalkViewController.xib */,
 				2B075B70239FE2F50076EBF8 /* Main.storyboard */,
 				2B075B76239FE3010076EBF8 /* Assets.xcassets */,
 				2B075B78239FE3010076EBF8 /* LaunchScreen.storyboard */,
@@ -130,6 +133,7 @@
 			files = (
 				2B075B7A239FE3010076EBF8 /* LaunchScreen.storyboard in Resources */,
 				2B075B77239FE3010076EBF8 /* Assets.xcassets in Resources */,
+				2B075B84239FEBF50076EBF8 /* TalkViewController.xib in Resources */,
 				2B075B72239FE2F50076EBF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B075B6F239FE2F50076EBF8 /* ViewController.swift in Sources */,
+				2B075B6F239FE2F50076EBF8 /* TalkViewController.swift in Sources */,
 				2B075B75239FE2F50076EBF8 /* YouDietProject.xcdatamodeld in Sources */,
 				2B075B6B239FE2F50076EBF8 /* AppDelegate.swift in Sources */,
 				2B075B6D239FE2F50076EBF8 /* SceneDelegate.swift in Sources */,
